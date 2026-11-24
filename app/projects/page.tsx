@@ -8,11 +8,11 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <main>
-      <h1>Projects</h1>
+    <main className="p-8">
+      <h1 className="text-3xl font-bold">Projects</h1>
       {projects.map((project) => (
-        <div key={project.id}>
-          <h2>{project.name}</h2>
+        <div key={project.id} className="mt-4">
+          <h2 className="text-xl font-semibold">{project.name}</h2>
           <p>{project.description}</p>
         </div>
       ))}
