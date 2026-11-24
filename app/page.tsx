@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <h1>Hello, my name is John Steven</h1>
+      <h1>Hello, my name is John Steven nicknamed Steve!</h1>
       <p>
         I am a third-year BSIT student at the Mater Dei College. 
         I am eager to learn about system development. 
