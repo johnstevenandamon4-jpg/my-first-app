@@ -31,7 +31,7 @@ export default function RootLayout({
 
           |
           <Link href="/about">About</Link>{" "}
-          
+
           |
           <Link href="/projects">Projects</Link>
         </nav>
